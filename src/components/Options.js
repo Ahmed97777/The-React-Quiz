@@ -9,7 +9,9 @@ function Options({ question, dispatch, answer }) {
             isAnswered
               ? index === question.correctOption
                 ? "correct"
-                : "wrong"
+                : index === answer
+                ? "goRed"
+                : ""
               : ""
           }`}
           key={option}

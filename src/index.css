@@ -157,14 +157,19 @@ progress {
 }
 
 .btn-option.correct {
-  background-color: var(--color-theme);
-  border: 2px solid var(--color-theme);
+  background-color: green;
+  border: 2px solid green;
   color: var(--color-light);
 }
 .btn-option.wrong {
   background-color: var(--color-accent);
   border: 2px solid var(--color-accent);
   color: var(--color-darkest);
+}
+
+.goRed {
+  background-color: red;
+  border: 2px solid red;
 }
 
 
